@@ -1,7 +1,6 @@
 pipeline
 {
   agent any
-  {
     stages{
          stage ("build")
       {
@@ -16,7 +15,5 @@ pipeline
         echo("testing process")
         }
       }
-      
     }
-  }
 }
