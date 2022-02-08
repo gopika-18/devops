@@ -13,7 +13,7 @@ pipeline
       stage("test")
       {
         steps{
-        echo("testing process")
+        echo("testin g process")
         }
       }
       
